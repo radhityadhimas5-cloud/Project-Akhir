@@ -275,7 +275,7 @@ export default function Reports() {
         {/* Printable Official Letterhead */}
         <div className="border-b-2 border-slate-900 pb-4 text-center">
           <h2 className="text-xl font-bold font-sans text-slate-900 uppercase tracking-tight">
-            MALLSAMPAH RECYCLING NETWORK
+            SAMPAHPAY RECYCLING NETWORK
           </h2>
           <p className="text-xs text-slate-600">
             LAPORAN RESMI REKAPITULASI PENGELOLAAN BANK SAMPAH & DAUR ULANG

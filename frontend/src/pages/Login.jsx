@@ -4,7 +4,7 @@ import { Leaf, Eye, EyeOff, Lock, Mail, AlertCircle, Loader2, ArrowRight, Shield
 import { useAuth } from '../contexts/AuthContext';
 
 export default function Login() {
-  const [email, setEmail] = useState('admin@mallsampah.com');
+  const [email, setEmail] = useState('admin@sampahpay.com');
   const [password, setPassword] = useState('password123');
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
@@ -57,7 +57,7 @@ export default function Login() {
             <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-emerald-600 text-white shadow-lg shadow-emerald-600/30 mb-4">
               <Leaf className="w-8 h-8" />
             </div>
-            <h1 className="text-2xl font-bold text-slate-900 tracking-tight">MallSampah Admin</h1>
+            <h1 className="text-2xl font-bold text-slate-900 tracking-tight">SampahPay Admin</h1>
             <p className="text-sm text-slate-500 mt-1">
               Waste Management & Recycling Network System
             </p>
@@ -83,7 +83,7 @@ export default function Login() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@mallsampah.com"
+                  placeholder="admin@sampahpay.com"
                   required
                   className="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500/20 focus:border-emerald-500 transition-all text-slate-900"
                 />
@@ -141,26 +141,28 @@ export default function Login() {
             <div className="grid grid-cols-2 gap-2">
               <button
                 type="button"
-                onClick={() => handleQuickLogin('admin@mallsampah.com')}
+                onClick={() => handleQuickLogin('admin@sampahpay.com')}
                 className="p-2.5 bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-200 rounded-xl text-left transition-colors text-xs"
               >
                 <div className="font-semibold text-slate-800 flex items-center gap-1">
                   <ShieldCheck className="w-3.5 h-3.5 text-purple-600" />
-                  <span>Administrator</span>
+                  <span className="truncate">Radhitya Dhimas A.</span>
                 </div>
-                <div className="text-[11px] text-slate-500 truncate">admin@mallsampah.com</div>
+                <div className="text-[10px] text-purple-700 font-medium">Administrator</div>
+                <div className="text-[11px] text-slate-500 truncate">admin@sampahpay.com</div>
               </button>
 
               <button
                 type="button"
-                onClick={() => handleQuickLogin('staff@mallsampah.com')}
+                onClick={() => handleQuickLogin('staff@sampahpay.com')}
                 className="p-2.5 bg-slate-50 hover:bg-emerald-50 border border-slate-200 hover:border-emerald-200 rounded-xl text-left transition-colors text-xs"
               >
                 <div className="font-semibold text-slate-800 flex items-center gap-1">
                   <Leaf className="w-3.5 h-3.5 text-emerald-600" />
-                  <span>Staff Kasir</span>
+                  <span className="truncate">Imania Ambarwati</span>
                 </div>
-                <div className="text-[11px] text-slate-500 truncate">staff@mallsampah.com</div>
+                <div className="text-[10px] text-emerald-700 font-medium">Staff Kasir</div>
+                <div className="text-[11px] text-slate-500 truncate">staff@sampahpay.com</div>
               </button>
             </div>
             <p className="text-[11px] text-slate-400 text-center mt-2.5">

@@ -23,7 +23,7 @@ class TransactionRepository extends BaseTemporaryRepository
                 'customer_id' => 'CUST-001',
                 'customer_name' => 'Ahmad Fauzi',
                 'staff_id' => 'USR-001',
-                'staff_name' => 'Budi Pratama',
+                'staff_name' => 'Radhitya Dhimas Ardyansyah',
                 'date' => '2026-03-01T09:30:00Z',
                 'items' => [
                     [
@@ -57,7 +57,7 @@ class TransactionRepository extends BaseTemporaryRepository
                 'customer_id' => 'CUST-003',
                 'customer_name' => 'PT Berkah Hijau Mandiri',
                 'staff_id' => 'USR-002',
-                'staff_name' => 'Siti Rahma',
+                'staff_name' => 'Imania Ambarwati',
                 'date' => '2026-03-02T14:15:00Z',
                 'items' => [
                     [
@@ -100,7 +100,7 @@ class TransactionRepository extends BaseTemporaryRepository
                 'customer_id' => 'CUST-004',
                 'customer_name' => 'Restoran Rasa Nusantara',
                 'staff_id' => 'USR-002',
-                'staff_name' => 'Siti Rahma',
+                'staff_name' => 'Imania Ambarwati',
                 'date' => '2026-03-03T11:00:00Z',
                 'items' => [
                     [
@@ -134,7 +134,7 @@ class TransactionRepository extends BaseTemporaryRepository
                 'customer_id' => 'CUST-002',
                 'customer_name' => 'Dewi Sartika',
                 'staff_id' => 'USR-001',
-                'staff_name' => 'Budi Pratama',
+                'staff_name' => 'Radhitya Dhimas Ardyansyah',
                 'date' => '2026-03-04T10:20:00Z',
                 'items' => [
                     [
@@ -168,7 +168,7 @@ class TransactionRepository extends BaseTemporaryRepository
                 'customer_id' => 'CUST-005',
                 'customer_name' => 'Hendra Kusuma (Bank Sampah Unit RW 08)',
                 'staff_id' => 'USR-002',
-                'staff_name' => 'Siti Rahma',
+                'staff_name' => 'Imania Ambarwati',
                 'date' => '2026-03-05T15:40:00Z',
                 'items' => [
                     [

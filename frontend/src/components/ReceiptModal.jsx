@@ -44,7 +44,7 @@ export default function ReceiptModal({ isOpen, onClose, transaction }) {
                 <Leaf className="w-3.5 h-3.5" />
               </div>
               <h2 className="text-lg font-bold font-sans tracking-tight text-slate-900">
-                MALLSAMPAH RECYCLING NETWORK
+                SAMPAHPAY RECYCLING NETWORK
               </h2>
             </div>
             <p className="text-slate-500 font-sans text-xs">
@@ -132,7 +132,7 @@ export default function ReceiptModal({ isOpen, onClose, transaction }) {
               "Terima kasih telah berkontribusi memilah sampah untuk bumi yang lebih hijau!"
             </p>
             <p className="text-[11px] text-slate-400">
-              Struk ini adalah bukti sah transaksi sistem daur ulang MallSampah • www.mallsampah.com
+              Struk ini adalah bukti sah transaksi sistem daur ulang SampahPay • www.sampahpay.com
             </p>
           </div>
         </div>

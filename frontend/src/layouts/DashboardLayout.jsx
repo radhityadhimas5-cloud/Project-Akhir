@@ -17,7 +17,7 @@ export default function DashboardLayout() {
     if (pathname.startsWith('/reports')) return 'Laporan & Statistik Pengelolaan';
     if (pathname.startsWith('/users')) return 'Manajemen Pengguna & Hak Akses';
     if (pathname.startsWith('/settings')) return 'Pengaturan Sistem Administrasi';
-    return 'Waste Management System';
+    return 'SampahPay';
   };
 
   return (
@@ -37,7 +37,7 @@ export default function DashboardLayout() {
         </main>
 
         <footer className="py-4 px-6 border-t border-slate-200/60 bg-white/50 text-center text-xs text-slate-400">
-          <p>© {new Date().getFullYear()} Waste Management System (MallSampah Inspiration). Beroperasi tanpa database permanen (In-Memory Temporary Storage).</p>
+          <p>© {new Date().getFullYear()} SampahPay. Beroperasi tanpa database permanen (In-Memory Temporary Storage).</p>
         </footer>
       </div>
     </div>

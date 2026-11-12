@@ -23,7 +23,7 @@ Route::get('/status', function () {
     return response()->json([
         'status' => 'success',
         'connected' => true,
-        'app_name' => 'Waste Management System (MallSampah)',
+        'app_name' => 'SampahPay',
         'message' => 'Laravel REST API backend connected successfully.',
         'mode' => 'In-Memory Temporary Repository (Database-Free)',
         'timestamp' => now()->toIso8601String(),

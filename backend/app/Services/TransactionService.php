@@ -178,7 +178,7 @@ class TransactionService
         }
 
         $staffId = $user['id'] ?? ($data['staff_id'] ?? 'USR-001');
-        $staffName = $user['name'] ?? ($data['staff_name'] ?? 'Budi Pratama');
+        $staffName = $user['name'] ?? ($data['staff_name'] ?? 'Radhitya Dhimas Ardyansyah');
 
         $transactionRecord = [
             'customer_id' => $customer['id'],

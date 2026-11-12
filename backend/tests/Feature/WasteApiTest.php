@@ -19,7 +19,7 @@ class WasteApiTest extends TestCase
     public function test_admin_login()
     {
         $response = $this->postJson('/api/auth/login', [
-            'email' => 'admin@mallsampah.com',
+            'email' => 'admin@sampahpay.com',
             'password' => 'password123',
         ]);
 
@@ -38,7 +38,7 @@ class WasteApiTest extends TestCase
     public function test_dashboard_data_retrieval()
     {
         $login = $this->postJson('/api/auth/login', [
-            'email' => 'admin@mallsampah.com',
+            'email' => 'admin@sampahpay.com',
             'password' => 'password123',
         ]);
         $token = $login->json('data.token');
@@ -61,7 +61,7 @@ class WasteApiTest extends TestCase
     public function test_waste_crud_operations()
     {
         $login = $this->postJson('/api/auth/login', [
-            'email' => 'admin@mallsampah.com',
+            'email' => 'admin@sampahpay.com',
             'password' => 'password123',
         ]);
         $token = $login->json('data.token');
@@ -98,7 +98,7 @@ class WasteApiTest extends TestCase
     public function test_transaction_creation_and_auto_calculation()
     {
         $login = $this->postJson('/api/auth/login', [
-            'email' => 'staff@mallsampah.com',
+            'email' => 'staff@sampahpay.com',
             'password' => 'password123',
         ]);
         $token = $login->json('data.token');

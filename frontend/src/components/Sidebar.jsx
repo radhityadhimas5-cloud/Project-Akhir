@@ -95,7 +95,7 @@ export default function Sidebar({ isOpen, onClose }) {
           </div>
           <div>
             <h1 className="font-bold text-slate-900 text-base leading-tight tracking-tight">
-              MallSampah
+              SampahPay
             </h1>
             <p className="text-[11px] font-medium text-emerald-600">Waste Bank Admin</p>
           </div>

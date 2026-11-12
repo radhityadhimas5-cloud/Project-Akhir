@@ -1,5 +1,5 @@
-# Waste Management and Recycling Administration System
-> Terinspirasi dari ekosistem modern **MallSampah** (https://www.mallsampah.com/)
+# SampahPay — Waste Management and Recycling Administration System
+> Platform digital pengelolaan bank sampah modern & sirkularitas daur ulang.
 
 Aplikasi web terintegrasi untuk pengelolaan bank sampah, pendataan nasabah, pencatatan transaksi penimbangan dengan kalkulasi nilai rupiah otomatis, cetak struk bukti setor, visualisasi analitik grafik Chart.js, serta pelaporan ekologis komprehensif.
 
@@ -120,10 +120,10 @@ Project Akhir Workshop Teknologi Web dan Aplikasi/
 
 Untuk kemudahan pengujian, sistem telah menyediakan akun demo terdaftar:
 
-| Peran | Email | Kata Sandi | Hak Akses |
-|---|---|---|---|
-| **Administrator** | `admin@mallsampah.com` | `password123` | Akses penuh (Dashboard, Sampah, Kategori, Nasabah, Transaksi, Laporan, Manajemen Pengguna, Pengaturan). |
-| **Staff Operator / Kasir** | `staff@mallsampah.com` | `password123` | Akses operasional harian (Dashboard, Nasabah, Transaksi Penyetoran, Cetak Struk, Katalog Harga Sampah). |
+| Nama Operator | Peran | Email | Kata Sandi | Hak Akses |
+|---|---|---|---|---|
+| **Radhitya Dhimas Ardyansyah** | **Administrator** | `admin@sampahpay.com` | `password123` | Akses penuh (Dashboard, Sampah, Kategori, Nasabah, Transaksi, Laporan, Manajemen Pengguna, Pengaturan). |
+| **Imania Ambarwati** | **Staff Operator / Kasir** | `staff@sampahpay.com` | `password123` | Akses operasional harian (Dashboard, Nasabah, Transaksi Penyetoran, Cetak Struk, Katalog Harga Sampah). |
 
 *(Tombol klik cepat untuk login kedua akun di atas juga tersedia langsung pada halaman `/login`)*.
 

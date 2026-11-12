@@ -23,8 +23,8 @@ class UserRepository extends BaseTemporaryRepository
         return [
             [
                 'id' => 'USR-001',
-                'name' => 'Budi Pratama (Super Admin)',
-                'email' => 'admin@mallsampah.com',
+                'name' => 'Radhitya Dhimas Ardyansyah',
+                'email' => 'admin@sampahpay.com',
                 'password' => 'password123',
                 'role' => 'Administrator',
                 'status' => 'active',
@@ -35,8 +35,8 @@ class UserRepository extends BaseTemporaryRepository
             ],
             [
                 'id' => 'USR-002',
-                'name' => 'Siti Rahma (Operator Staff)',
-                'email' => 'staff@mallsampah.com',
+                'name' => 'Imania Ambarwati',
+                'email' => 'staff@sampahpay.com',
                 'password' => 'password123',
                 'role' => 'Staff',
                 'status' => 'active',
@@ -48,7 +48,7 @@ class UserRepository extends BaseTemporaryRepository
             [
                 'id' => 'USR-003',
                 'name' => 'Andi Wijaya (Field Staff)',
-                'email' => 'andi@mallsampah.com',
+                'email' => 'andi@sampahpay.com',
                 'password' => 'password123',
                 'role' => 'Staff',
                 'status' => 'inactive',
