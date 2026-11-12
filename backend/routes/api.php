@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ChatbotController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ReportController;
@@ -13,11 +14,13 @@ use App\Http\Middleware\DevelopmentAuthMiddleware;
 use App\Http\Middleware\RoleMiddleware;
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Public API Routes
 |--------------------------------------------------------------------------
 */
+
 
 Route::get('/status', function () {
     return response()->json([
@@ -38,6 +41,12 @@ Route::prefix('auth')->group(function () {
 
 // Public Settings & Info
 Route::get('/settings/public', [SettingController::class, 'index']);
+
+// AI Chatbot Virtual Assistant (Public)
+Route::prefix('chatbot')->group(function () {
+    Route::post('/message', [ChatbotController::class, 'chat']);
+    Route::get('/suggestions', [ChatbotController::class, 'suggestions']);
+});
 
 /*
 |--------------------------------------------------------------------------
